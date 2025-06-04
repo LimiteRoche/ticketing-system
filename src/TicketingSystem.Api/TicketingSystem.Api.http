@@ -1,0 +1,27 @@
+### Obtener todos los tickets
+GET http://localhost:5000/api/tickets
+Accept: application/json
+
+###
+
+### Crear un nuevo ticket
+POST http://localhost:5000/api/tickets
+Content-Type: application/json
+
+{
+  "userId": "user-123",
+  "username": "john.doe",
+  "subject": "Error al iniciar sesión",
+  "description": "No puedo iniciar sesión desde ayer"
+}
+
+###
+
+### Añadir una respuesta
+POST http://localhost:5000/api/tickets/3dd.../reply
+Content-Type: application/json
+
+{
+  "message": "Estamos revisando tu problema",
+  "agentName": "Soporte"
+}

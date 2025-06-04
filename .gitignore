@@ -1,0 +1,85 @@
+# ============================
+# Angular Client
+# ============================
+
+# Build output
+/src/TicketingSystem.Client/dist/
+/src/TicketingSystem.Client/tmp/
+/src/TicketingSystem.Client/out-tsc/
+/src/TicketingSystem.Client/.angular/cache
+/src/TicketingSystem.Client/bazel-out/
+
+# Node modules
+/src/TicketingSystem.Client/node_modules/
+
+# Logs
+/src/TicketingSystem.Client/npm-debug.log*
+/src/TicketingSystem.Client/yarn-error.log*
+
+# Coverage
+/src/TicketingSystem.Client/coverage/
+
+# Angular environment files
+/src/TicketingSystem.Client/src/environments/environment*.ts
+
+# IDEs & editor folders for Angular
+/src/TicketingSystem.Client/.idea/
+/src/TicketingSystem.Client/.vscode/*
+!/src/TicketingSystem.Client/.vscode/settings.json
+!/src/TicketingSystem.Client/.vscode/tasks.json
+!/src/TicketingSystem.Client/.vscode/launch.json
+!/src/TicketingSystem.Client/.vscode/extensions.json
+
+# Misc Angular
+/src/TicketingSystem.Client/testem.log
+/src/TicketingSystem.Client/libpeerconnection.log
+/src/TicketingSystem.Client/typings
+/src/TicketingSystem.Client/.sass-cache/
+.src/TicketingSystem.Client/history/
+/src/TicketingSystem.Client/connect.lock
+
+# ============================
+# .NET 8
+# ============================
+bin/
+obj/
+*.dbmdl
+*.user
+*.rsuser
+*.suo
+*.cache
+*.log
+*.vsp
+*.vspx
+*.app
+*.db
+*.ide
+*.opendb
+*.pdb
+*.dll
+*.exe
+*.vs/
+TestResults/
+publish/
+publish_output/
+
+# IDE config files
+*.sln
+*.sln.iml
+*.njsproj
+*.launch
+*.ntvs*
+*.sw?
+.project
+.classpath
+.settings/
+.idea/
+.vscode/
+.c9/
+
+# ============================
+# OS-Specific and general
+# ============================
+.DS_Store
+Thumbs.db
+*.log
